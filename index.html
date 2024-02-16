@@ -6,8 +6,47 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Groot Glas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap"
+    rel="stylesheet">
+  <style>
+      .vollkorn-sc-regular {
+          font-family: "Vollkorn SC", serif;
+          font-weight: 400;
+          font-style: normal;
+      }
+
+      .vollkorn-sc-semibold {
+          font-family: "Vollkorn SC", serif;
+          font-weight: 600;
+          font-style: normal;
+      }
+
+      .vollkorn-sc-bold {
+          font-family: "Vollkorn SC", serif;
+          font-weight: 700;
+          font-style: normal;
+      }
+
+      .vollkorn-sc-black {
+          font-family: "Vollkorn SC", serif;
+          font-weight: 900;
+          font-style: normal;
+      }
+      html, body {
+          height: 100%;
+      }
+  </style>
 </head>
-<body>
-  <h1>Groot Glas</h1>
+<body class="h-full min-h-screen bg-gradient-to-tl from-red-900 to-red-950">
+<div class="etiket h-full text-center rounded py-20 flex flex-col items-center justify-center bg-[url('./assets/hermes-rivera-aK6WGqxyHFw-unsplash.jpg')] bg-cover">
+  <div class="container mx-auto px-4 mt-12 text-white">
+
+    <h1 class="vollkorn-sc-regular font-[400] text-center">Hier komt de website van <span class="block transition-all text-5xl md:text-[5rem] mt-4 uppercase drop-shadow">Groot Glas</span></h1>
+  </div>
+</div>
 </body>
 </html>
